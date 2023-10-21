@@ -1,0 +1,19 @@
+{
+    "name": "himasami/laravel-wallet",
+    "description": "This package for using wallet with user",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Himasami\\LaravelWallet\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "EbrahimSami",
+            "email": "112947751+EbrahimSami@users.noreply.github.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
