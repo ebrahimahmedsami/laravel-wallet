@@ -16,7 +16,11 @@ class WalletServiceProvider extends ServiceProvider
     {
         $this->publishes([
             __DIR__.'/database/migrations/' => database_path('migrations')
-        ], 'laravel-wallet-migrations');
+        ], 'laravel-wallet-table');
+
+        $this->publishes([
+            __DIR__.'/models/' => __DIR__.'../../../../../Models'
+        ], 'laravel-wallet-table');
     }
 
 }
