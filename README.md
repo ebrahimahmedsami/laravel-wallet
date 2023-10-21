@@ -9,6 +9,9 @@ This package for using wallet with user
 # => Run Vendor Publish For Publish Wallet Table
     php artisan vendor:publish --tag=laravel-wallet-table 
 
+# => Using Wallet In User Model
+use trait called (wallettable)
+
 # => Example Using Wallet 
     auth()->user()
     ->walletType(WalletTypeEnum::MONEY, WalletTransactionTypeEnum::DEPOSIT)
