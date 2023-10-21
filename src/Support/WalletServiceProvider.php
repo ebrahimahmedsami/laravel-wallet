@@ -19,7 +19,7 @@ class WalletServiceProvider extends ServiceProvider
         ], 'laravel-wallet-table');
 
         $this->publishes([
-            __DIR__.'/models/' => __DIR__.'../../../../../../Models'
+            __DIR__.'/models/' => __DIR__.'../../../../../../app/Models'
         ], 'laravel-wallet-table');
     }
 
